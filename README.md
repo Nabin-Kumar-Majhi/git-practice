@@ -47,3 +47,23 @@ Message should be in present tense. For e.g setup the initial git project
 ```bash
 git log --oneline
 ```
+
+-Adding rmote to our repository
+```bash
+git remote add origin <repository_url>
+```
+
+- Check current branch
+```bash
+git branch
+```
+
+- Rename current branch
+```bash
+git branch -M <new_brach_name>
+```
+
+- Push latest changes to the remote 
+```bash
+git push origin <branch_name>
+```
