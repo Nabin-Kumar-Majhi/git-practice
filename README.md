@@ -67,3 +67,13 @@ git branch -M <new_brach_name>
 ```bash
 git push origin <branch_name>
 ```
+
+- Checkout/Create new branch
+```bash
+git checkout -b <branch_name>
+```
+
+- Checkout existing branch
+```bash
+git checkout <branch_name>
+```
